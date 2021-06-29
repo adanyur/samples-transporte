@@ -25,14 +25,6 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="assets/css/jquery.mb.YTPlayer.min.css"
-      media="all"
-      rel="stylesheet"
-      type="text/css"
-    />
   </head>
   <body>
     <!--? Loading -->
@@ -47,7 +39,6 @@
       </div>
     </div>
     <!-- Loading  -->
-
     <header>
       <!-- Header -->
       <div class="header-area">
@@ -111,7 +102,7 @@
                           <li><a href="index.html">Home</a></li>
                           <li><a href="about.html">About</a></li>
                           <li><a href="contact.html">Contact</a></li>
-                          <li><a href="contact.html">price</a></li>
+                          <li><a href="price.html">price</a></li>
                         </ul>
                       </nav>
                     </div>
@@ -129,155 +120,165 @@
       <!-- Header -->
     </header>
     <main>
-      <!--video-->
-      <div id="banner__video" class="player playerBox"></div>
-      <!--video-->
+      <!--? Banner-->
+      <div class="slider-area">
+        <div
+          class="
+            single-slider
+            hero-overly
+            slider-height2
+            d-flex
+            align-items-center
+          "
+          data-background="assets/img/hero/about.jpg"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="hero-cap">
+                  <h2>Price</h2>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="breadcrumb-item"><a href="#">Price</a></li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner-->
+      <!-- formulario de cotizacion-->
+      <section
+        class="contact-form-area section-bg pt-115 pb-120 fix"
+        data-background="assets/img/gallery/section_bg02.jpg"
+      >
+        <div class="container">
+          <div class="row justify-content-end">
+            <div class="col-xl-8 col-lg-9">
+              <div class="contact-form-wrapper">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="section-tittle mb-50">
+                      <h2>Formulario de cotizacion</h2>
+                    </div>
+                  </div>
+                </div>
 
-      <!--? informacion -->
-      <div class="our-info-area pt-70 pb-40">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="single-info mb-30">
-                <div class="info-icon">
-                  <span class="flaticon-support"></span>
-                </div>
-                <div class="info-caption">
-                  <p>Call Us Anytime</p>
-                  <span>+ (123) 1800-567-8990</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="single-info mb-30">
-                <div class="info-icon">
-                  <span class="flaticon-clock"></span>
-                </div>
-                <div class="info-caption">
-                  <p>Sunday CLOSED</p>
-                  <span>Mon - Sat 8.00 - 18.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="single-info mb-30">
-                <div class="info-icon">
-                  <span class="flaticon-place"></span>
-                </div>
-                <div class="info-caption">
-                  <p>Columbia, SC 29201</p>
-                  <span>USA, New York - 10620</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                <form action="#" class="contact-form">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Nombre" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Email" />
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="input-form">
+                        <input type="text" placeholder="Numero contacto" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="select-items">
+                        <select name="select" id="select1">
+                          <option value="">Tipo de carga</option>
+                          <option value="">categoria 1</option>
+                          <option value="">categoria 2</option>
+                          <option value="">categoria 3</option>
+                          <option value="">categoria 4</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Ciuda o departamento" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Contenido" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Peso" />
+                      </div>
+                    </div>
 
-      <!-- informacion -->
-      <!-- Section Tittle -->
-      <div class="categories-area section-padding30">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section-tittle text-center mb-80">
-                <h2>Otros servicios</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="single-cat text-center mb-50">
-                <div class="cat-icon">
-                  <span class="flaticon-shipped"></span>
-                </div>
-                <div class="cat-cap">
-                  <h5><a href="services.html">servicio 1</a></h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    modi in laudantium accusamus. Iste enim aperiam perferendis
-                    et, aliquam praesentium beatae quo dolores dicta impedit
-                    consequatur sequi inventore numquam dolor?
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="single-cat text-center mb-50">
-                <div class="cat-icon">
-                  <span class="flaticon-ship"></span>
-                </div>
-                <div class="cat-cap">
-                  <h5><a href="services.html">servicio 2</a></h5>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Maiores corrupti optio nulla ex nihil quibusdam ullam, sint
-                    harum, quis aliquam natus mollitia, rem numquam assumenda.
-                    Nesciunt necessitatibus nobis rerum voluptate?
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <div class="single-cat text-center mb-50">
-                <div class="cat-icon">
-                  <span class="flaticon-plane"></span>
-                </div>
-                <div class="cat-cap">
-                  <h5><a href="services.html">servicio 3</a></h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aut, labore repudiandae? Ipsam, magnam cumque dolor
-                    inventore veritatis minima error quod temporibus aspernatur
-                    laudantium voluptatibus eveniet tenetur, autem saepe iste
-                    obcaecati?
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Otros servicios -->
-      <!--? quienes somos -->
-      <div class="about-low-area padding-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="about-caption mb-50">
-                <div class="section-tittle mb-35">
-                  <span>Quienes somos</span>
-                  <h2>Tramsportes</h2>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eaque, neque ex, ipsa ipsum quae placeat dolorem ratione
-                  maxime necessitatibus fugiat blanditiis autem hic ad
-                  distinctio vel? Nam sed laborum nulla.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione fugiat quidem quo corporis accusantium magni impedit!
-                  Facilis odio perferendis nam dolorem cum, natus facere
-                  inventore fugit possimus tenetur veritatis ipsa?
-                </p>
-                <a href="about.html" class="btn">mas de nosotros</a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <div class="about-img">
-                <div class="about-font-img">
-                  <img src="assets/img/gallery/about2.png" alt="" />
-                </div>
-                <div class="about-back-img d-none d-lg-block">
-                  <img src="assets/img/gallery/about1.png" alt="" />
-                </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Altura" />
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Ancho" />
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="input-form">
+                        <input type="text" placeholder="Largo" />
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <div class="radio-wrapper mb-30 mt-15">
+                        <label>Servicio Extra:</label>
+                        <div class="select-radio">
+                          <div class="radio">
+                            <input
+                              id="radio-1"
+                              name="radio"
+                              type="radio"
+                              checked=""
+                            />
+                            <label for="radio-1" class="radio-label"
+                              >Tramsporte</label
+                            >
+                          </div>
+                          <div class="radio">
+                            <input id="radio-2" name="radio" type="radio" />
+                            <label for="radio-2" class="radio-label"
+                              >Entrega urgente</label
+                            >
+                          </div>
+                          <div class="radio">
+                            <input id="radio-4" name="radio" type="radio" />
+                            <label for="radio-4" class="radio-label"
+                              >Seguro</label
+                            >
+                          </div>
+                          <div class="radio">
+                            <input id="radio-5" name="radio" type="radio" />
+                            <label for="radio-5" class="radio-label"
+                              >embalaje</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                      <button name="submit" class="submit-btn">
+                        Solicitar presupuesto
+                      </button>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- quienes somos -->
+      </section>
+      <!-- formulario de cotizacion-->
       <!--? testimonio -->
       <div
         class="testimonial-area testimonial-padding section-bg"
@@ -430,7 +431,9 @@
                   </div>
                   <!-- Footer Social -->
                   <div class="footer-social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
                     <a href=""><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fas fa-globe"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -449,6 +452,7 @@
     </div>
 
     <!-- JS here -->
+
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
     <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
@@ -479,9 +483,5 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
-    <!--video bacground-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="./assets/js/active.js"></script>
   </body>
 </html>

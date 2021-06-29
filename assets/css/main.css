@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Sans:300,400,600,700,700i|Montserrat:200,300,400,500,600,700,800&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Great+Vibes|Josefin+Sans:300,400,600,700,700i|Montserrat:200,300,400,500,600,700,800&display=swap");
 .white-bg {
   background: #ffffff;
 }
@@ -5619,4 +5619,39 @@ del {
 }
 .switch-wrap {
   margin-bottom: 10px;
+} */
+
+/*Video*/
+.video-bg-area {
+  background-color: #1a1a1a;
+}
+
+.video-wraper {
+  height: 100vh;
+  min-width: 100%;
+  position: absolute;
+  z-index: -999;
+  top: 0;
+  left: 0;
+}
+
+.video-wraper video {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.slider__overflow {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.playerBox {
+  background: #000;
+  height: 800px;
+  width: 100%;
 }
